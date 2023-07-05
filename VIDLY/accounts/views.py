@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.shortcuts import render,redirect
 from .forms import RegistrationForm
 from .models import Account
@@ -32,3 +33,8 @@ def login(request):
 
 def logout(request):
     return render(request, 'accounts/logout.html')
+=======
+from django.shortcuts import render
+
+# Create your views here.
+>>>>>>> 1baa7bd3e80870e161f11c7e57ef726649ae0d87

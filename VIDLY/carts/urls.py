@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.urls import path
 from . import views
 
@@ -9,4 +10,14 @@ urlpatterns = [
 
 
     path('checkout/',views.checkout,name='checkout'),
+=======
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('',views.cart,name='cart'),
+    path('add_cart/<int:product_id>/' , views.add_cart, name='add_cart'),
+    path('remove_cart/<int:product_id>/' , views.remove_cart, name='remove_cart'),
+    path('remove_cart_item/<int:product_id>/' , views.remove_cart_item, name='remove_cart_item'),
+>>>>>>> 1baa7bd3e80870e161f11c7e57ef726649ae0d87
 ]

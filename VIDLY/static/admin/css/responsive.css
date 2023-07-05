@@ -620,7 +620,10 @@ input[type="submit"], button {
     }
 
     .aligned p.file-upload {
+<<<<<<< HEAD
         margin-left: 0;
+=======
+>>>>>>> 1baa7bd3e80870e161f11c7e57ef726649ae0d87
         font-size: 0.8125rem;
     }
 
